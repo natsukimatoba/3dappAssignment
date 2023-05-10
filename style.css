@@ -32,11 +32,11 @@ img {
 }
 
 .main-nav li {
-    color: black;
+    color: #fff;
 }
 
 .main-nav a:hover {
-    color: beige;
+    color: rgb(255, 255, 255);
 }
 
 .page-header {
@@ -50,46 +50,22 @@ justify-content: space-between;
     padding: 0 4%;
 }
 
-.home-content {
+.news-content {
     text-align: center;
     margin-top: 10%;
 }
 
-.home-content p {
-    font-size: 1.125rem;
-    margin: 10px 0 42px;
+#news {
+    background-color: #fff;
+    height: 270px;
+    margin-bottom: 40px;
 }
 
-.page-title {
-    font-size: 5rem;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    text-transform: uppercase;
-    font-weight: normal;
+article img {
+    margin-bottom: 40px;
 }
 
-.button {
-    font-size: 1.375rem;
-    background: #0bd;
-    color: #fff;
-    border-radius: 5px;
-    padding: 18px 32px;
+article p {
+    margin-bottom: 1rem;
 }
 
-.button:hover{
-    background: #0090aa;
-}
-
-#home {
-    background-image: url(../assign/image/th.jpg);
-    min-height: 100vh;
-}
-
-#home .page-title {
-    text-transform: none;
-}
-
-.big-bg {
-    background-size: cover;
-    background-position: centre top;
-    background-repeat: no-repeat;
-}
