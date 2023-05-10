@@ -56,7 +56,7 @@ justify-content: space-between;
 }
 
 #news {
-    background-color: #fff;
+    background-color: crimson;
     height: 270px;
     margin-bottom: 40px;
 }
@@ -67,5 +67,40 @@ article img {
 
 article p {
     margin-bottom: 1rem;
+}
+
+aside p{
+    padding: 12px 10px;
+
+    .sub-menu {
+        margin-bottom: 60px;
+        list-style: none;
+    }
+
+    .sub-menu li {
+        border-bottom: 1px #ddd solid;
+    }
+
+    .sub-menu a {
+        color: #432;
+        padding: 10px;
+        display: block;
+    }
+
+    .sub-menu a:hover{
+        color: #0bd;
+    }
+}
+
+footer{
+    background-color: #432;
+    text-align: center;
+    text-decoration: underline;
+    padding: 26px 0;
+}
+
+footer{
+    color: #fff;
+    font-size: 0.875rem;
 }
 
