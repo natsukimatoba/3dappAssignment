@@ -105,3 +105,19 @@ footer{
     font-size: 0.875rem;
 }
 
+
+.product-content .page-title {
+    text-align: center;
+}
+
+#product {
+    display: flex;
+    justify-content: center;
+    display: grid;
+    gap: 26px;
+    grid-template-columns: repeat (3, minmax(240px, 1fr));
+    margin-top: 6%;
+    margin-bottom: 50px;
+}
+
+
