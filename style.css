@@ -40,8 +40,9 @@ img {
 }
 
 .page-header {
-display: flex;
-justify-content: space-between;
+    background-color: crimson;
+    display: flex;
+    justify-content: space-between;
 }
 
 .wrapper {
@@ -71,31 +72,30 @@ article p {
 
 aside p{
     padding: 12px 10px;
+}
 
-    .sub-menu {
-        margin-bottom: 60px;
-        list-style: none;
-    }
+.sub-menu {
+    margin-bottom: 60px;
+    list-style: none;
+}
 
-    .sub-menu li {
-        border-bottom: 1px #ddd solid;
-    }
+.sub-menu li {
+    border-bottom: 1px #ddd solid;
+}
 
-    .sub-menu a {
-        color: #432;
-        padding: 10px;
-        display: block;
-    }
+.sub-menu a {
+    color: #432;
+    padding: 10px;
+    display: block;
+}
 
-    .sub-menu a:hover{
-        color: #0bd;
-    }
+.sub-menu a:hover{
+    color: #0bd;
 }
 
 footer{
     background-color: #432;
     text-align: center;
-    text-decoration: underline;
     padding: 26px 0;
 }
 
